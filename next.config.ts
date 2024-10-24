@@ -5,13 +5,13 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
   /* config options here */
-    basePath: "/OpenDotaTelegramMiniApp/docs",
+    basePath: "/OpenDotaTelegramMiniApp",
     output: 'export',
     // assetPrefix: isProd ? '/docs/' : '',
-    images: {
-        unoptimized: true,
-    },
-    trailingSlash: true,
+    // images: {
+    //     unoptimized: true,
+    // },
+    // trailingSlash: true,
 };
 
 export default nextConfig;
