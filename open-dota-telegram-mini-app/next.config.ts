@@ -6,7 +6,7 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig: NextConfig = {
   /* config options here */
     output: 'export',
-    assetPrefix: isProd ? '/OpenDotaTelegramMiniApp/' : '',
+    assetPrefix: isProd ? '/OpenDotaTelegramMiniApp/docs/' : '',
     images: {
         unoptimized: true,
     },
